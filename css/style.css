@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: Arial;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 22px;
+}
+#gameOver {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  display: none;
+}
